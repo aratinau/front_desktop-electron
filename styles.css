@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+html {
+    opacity: .8;
+}
+
+html:hover {
+    opacity: 1;
+}
+
+body {
+    background-image: linear-gradient(to right top, #b7367f, #aa4493, #9951a3, #845daf, #6d67b7, #5573c0, #387dc5, #0087c7, #0095c8, #00a2c3, #00adb9, #00b7ac);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 8rem;
+}
