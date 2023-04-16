@@ -8,7 +8,21 @@ function createWindow () {
             nodeIntegration: true
         },
         frame: false,
-        transparent: true
+        transparent: true,
+        frame: false,
+        hasShadow: false,
+        fullscreenable: false,
+        alwaysOnTop: true,
+        resizable: false,
+        minimizable: false,
+        maximizable: false,
+        transparent: true,
+        titleBarStyle: 'customButtonsOnHover',
+        closable: false,
+        webPreferences: {
+            nodeIntegration: true,
+            webSecurity: false,
+        },
     })
 
     win.loadFile('index.html')
