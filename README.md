@@ -15,7 +15,7 @@ npm run start
 
 ## third commit
 
-![screenshot3](./screenshots/screenshot-2.png)
+![screenshot3](./screenshots/screenshot-3.png)
 
 ```javascript
 const win = new BrowserWindow({
